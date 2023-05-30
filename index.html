@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <!--Indentación-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de Gatitos</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <h1>Página de Gatitos</h1>
+
+    <h3>Imágenes de Gatitos</h3>
+
+    <!--Imagen desde internet-->
+    <img class="img1" src="https://zonagatos.com/wp-content/uploads/2022/05/curiosidades-de-los-gatos-negros.jpg">
+
+    <br>
+     <!--Imagen desde computadora-->
+     <img class="img2" src="imagenes/gatitos2.jpg">
+
+    <!--Crear enlaces externos-->
+    <p>Si quieres ver más imágenes de gatitos negros, <a href="https://www.google.com/search?q=gatitos+negros&tbm=isch&ved=2ahUKEwiShOS9_cP-AhV9Pt4AHXeiD8MQ2-cCegQIABAA&oq=gatitos+negros&gs_lcp=CgNpbWcQA1CbD1ibD2D3EGgAcAB4AIABgQGIAf8BkgEDMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=MTpHZNKnK_38-LYP98S-mAw&bih=649&biw=1360&rlz=1C1UEAD_enMX1040MX1040#imgrc=Ih241yddAa-9OM" target="_blank">da click aquí</a>.</p>
+
+    <h3>Listas de Gatitos</h3>
+    <p>3 cosas que los gatitos <strong>aman</strong></p>
+
+        <!--Listas Ordenadas-->
+        <ol> <!--Ordered List-->
+            <li>Hilo</li>
+            <li>Arena</li>
+            <li>Dormir</li>
+        </ol>
+
+        <!--Lista Desordenada-->
+    <p>3 cosas que los gatitos <i>odian</i></p>    
+        <ul> <!--Unordered List-->
+            <li>Bañarse</li> <!--List item-->
+            <li>Perros</li>
+            <li>Invación de espacio</li>  
+        </ul>
+
+
+    <!--Formularios-->
+    <form>
+        <!--Formulario con botones de radio-->
+       <p>¿Tu gatito es cachorro o es adulto?</p>
+       <label>
+        <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro
+       </label>
+       <br> <!--Break = Salto de línea-->
+       <label>
+        <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+       </label>
+
+        <!--Formulario con casillas de verificación - checks-->
+       <p>¿Qué tipo de personalidad tiene tu gato?</p>
+       <label>
+        <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked>Enojón 
+       </label>
+       <br>
+       <label>
+        <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso 
+       </label>
+       <br>
+       <label>
+        <input id="energico" type="checkbox" value="energico" name="personalidad">Enérgico 
+       </label>
+    </form>
+    </body>
+  
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de Tecnolochicas PRO</small></p>
+    </footer>
+
+</html>
+<!--Así se ponen los comentarios-->

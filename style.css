@@ -1,0 +1,43 @@
+/*Así se pone un comentario*/
+body{
+    background-color: #a838dc;
+    color: #f8f6e5;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3{
+    color: #c3ffbc;
+    font-size: 25px;
+}
+
+h1, p{
+    color: #ff7ec7;
+}
+
+img {
+    /*width: 280px;*/
+    /*height: 180px;*/
+    border-style:solid;
+    border-color: #c3ffbc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.img1 {
+width: 280px;
+height: 180px;
+}
+
+.img2 {
+    width: 350px;
+    height: 190px;
+}
+
+a, small{
+    color: #f8f6e5;
+}
+
+
+
+
